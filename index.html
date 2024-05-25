@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian - Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .bio, .projects, .contact {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sebastian</h1>
+        <p>Apasionado de los Videojuegos | Profesional</p>
+    </header>
+    <nav>
+        <a href="#biografia">Biografía</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="biografia" class="bio">
+            <h2>Biografía</h2>
+            <p>Hola, soy Sebastian, un entusiasta de los videojuegos con un enfoque profesional en el desarrollo y la crítica de videojuegos. Me apasiona explorar nuevos mundos virtuales y crear experiencias de juego inolvidables. Con años de experiencia en la industria, he trabajado en diversos proyectos que abarcan desde el desarrollo de juegos indie hasta la consultoría en grandes estudios.</p>
+        </section>
+        <section id="proyectos" class="projects">
+            <h2>Proyectos</h2>
+            <ul>
+                <li><strong>Proyecto 1:</strong> Descripción breve del proyecto 1.</li>
+                <li><strong>Proyecto 2:</strong> Descripción breve del proyecto 2.</li>
+                <li><strong>Proyecto 3:</strong> Descripción breve del proyecto 3.</li>
+            </ul>
+        </section>
+        <section id="contacto" class="contact">
+            <h2>Contacto</h2>
+            <form action="mailto:sebastianlaurencio@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sebastian. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
